@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Альбом фотографий</string>
+    <string name="btn_next">Следующее фото</string>
+    <string name="tv_header">Вас приветствует альбом любимых фотографий</string>
+    <string name="btn_start">Начать просмотр</string>
+    <string name="tv_finish">Спасибо за просмотр!\nДо свидания.</string>
+    <string name="btn_finish">До свидания!</string>
+</resources>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PhotoalbumActivity">
+
+    <ImageView
+        android:id="@+id/iv_image_one"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:background="@drawable/image_frame"
+        android:scaleType="centerCrop"
+        android:src="@drawable/image1"
+        android:text="Hello World!"
+        android:visibility="visible"
+        android:clipToOutline="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.3" />
+
+
+    <ImageView
+        android:id="@+id/iv_image_two"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        app:layout_constraintVertical_bias="0.3"
+        android:src="@drawable/image2"
+        android:background="@drawable/image_frame"
+        android:scaleType="centerCrop"
+        android:clipToOutline="true"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_next"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.7"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
